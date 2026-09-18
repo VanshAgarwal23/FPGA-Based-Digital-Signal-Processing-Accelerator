@@ -1,0 +1,29 @@
+# Vivado
+*.jou
+*.log
+*.str
+*.wdb
+*.vcd
+*.dcp
+*.bit
+*.ltx
+
+# Vivado generated directories
+*.cache/
+*.hw/
+*.sim/
+*.srcs/
+*.gen/
+*.ip_user_files/
+
+# Simulation
+xsim.dir/
+
+# Temporary
+*.tmp
+*.bak
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
