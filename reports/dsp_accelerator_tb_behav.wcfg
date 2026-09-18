@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="dsp_accelerator_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="dsp_accelerator_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.000 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="125"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/dsp_accelerator_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dsp_accelerator_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dsp_accelerator_tb/input_valid" type="logic">
+      <obj_property name="ElementShortName">input_valid</obj_property>
+      <obj_property name="ObjectShortName">input_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dsp_accelerator_tb/input_data" type="array">
+      <obj_property name="ElementShortName">input_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dsp_accelerator_tb/output_valid" type="logic">
+      <obj_property name="ElementShortName">output_valid</obj_property>
+      <obj_property name="ObjectShortName">output_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dsp_accelerator_tb/output_data" type="array">
+      <obj_property name="ElementShortName">output_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dsp_accelerator_tb/history" type="array">
+      <obj_property name="ElementShortName">history[0:15][15:0]</obj_property>
+      <obj_property name="ObjectShortName">history[0:15][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dsp_accelerator_tb/coeffs" type="array">
+      <obj_property name="ElementShortName">coeffs[0:15][15:0]</obj_property>
+      <obj_property name="ObjectShortName">coeffs[0:15][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dsp_accelerator_tb/expected_acc" type="array">
+      <obj_property name="ElementShortName">expected_acc[63:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_acc[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dsp_accelerator_tb/expected_scaled" type="array">
+      <obj_property name="ElementShortName">expected_scaled[63:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_scaled[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dsp_accelerator_tb/expected_output" type="array">
+      <obj_property name="ElementShortName">expected_output[15:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_output[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dsp_accelerator_tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dsp_accelerator_tb/test_count" type="array">
+      <obj_property name="ElementShortName">test_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">test_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dsp_accelerator_tb/pass_count" type="array">
+      <obj_property name="ElementShortName">pass_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pass_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dsp_accelerator_tb/fail_count" type="array">
+      <obj_property name="ElementShortName">fail_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fail_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dsp_accelerator_tb/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>
