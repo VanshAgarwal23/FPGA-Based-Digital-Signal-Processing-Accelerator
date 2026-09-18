@@ -1,9 +1,9 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
-| Date             : Fri Sep 18 17:48:31 2026
+| Date             : Fri Sep 18 17:52:07 2026
 | Host             : HP_PAVILLION running 64-bit major release  (build 9200)
-| Command          : report_power -file C:/Users/Test/Vivado_projects/FPGA-DSP-Accelerator/reports/updated_basys3/power_report.rpt
+| Command          : report_power -file C:/Users/Test/Vivado_projects/FPGA-DSP-Accelerator/reports/updated_basys3(1)/power_report.rpt
 | Design           : dsp_accelerator_top
 | Device           : xc7a35tcpg236-1
 | Design State     : routed
